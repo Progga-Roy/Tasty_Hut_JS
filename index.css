@@ -697,7 +697,8 @@ body {
     .modal {
      
         max-width: 100%;
-        height: 89%;
+        /* height: 89%; */
+        height: auto;
         padding: 20px;
     }
 
