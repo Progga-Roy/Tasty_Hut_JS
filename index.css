@@ -161,10 +161,10 @@ body {
 
 .no-found-msg {
     /* display: none; */
-    position: absolute;
+    position:absolute;
     left: 30%;
     top: 62%;
-    text-align: center;
+    text-align:center;
     color:#DC3545;
     /* color: #FFC107; */
 }
@@ -689,8 +689,9 @@ body {
     .no-found-msg {
       
        font-size: 18px;
-        left: 0%;
+        left: 2%;
         top: 25%;
+        /* text-align: center; */
         /* color: #FFC107; */
     }
 
@@ -743,9 +744,10 @@ body {
 
     .modal-footer .close-btn2 {
 
-        width: 65px;
+        /* width: 65px;
         height: 30px;
-        font-size: 15px;
+        font-size: 15px; */
+        display: none;
 
     }
 
