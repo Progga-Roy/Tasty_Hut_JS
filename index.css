@@ -286,7 +286,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 800px;
-    height: 92%;
+    height: 94%;
     background-color: whitesmoke;
     border-radius: 5px;
     padding: 20px;
@@ -690,7 +690,7 @@ body {
       
        font-size: 18px;
         left: 2%;
-        top: 25%;
+        top: 26%;
         /* text-align: center; */
         /* color: #FFC107; */
     }
