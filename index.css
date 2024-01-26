@@ -120,7 +120,7 @@ body {
     padding: 20px;
     width: 600px;
     height: 50px;
-    border-radius: 8px;
+    border-radius: 5px;
     position: relative;
     border: 0;
     outline: 0;
@@ -468,7 +468,7 @@ body {
 
 
 
-@media(max-width:768px) {
+@media(max-width:767px) {
     .logo {
         font-size: 22px;
         font-weight: bold;
@@ -810,9 +810,248 @@ body {
         font-size: 15px;
         margin-top: 5px;
         padding: 5px;
+    }
+}
+/* */
 
-
+@media (min-width: 768px) and (max-width: 900px){
+    .nav-bar {
+       
+        min-height: 90px;
+        margin: 0 20px;
+      
+    }
+    .section {
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    .banner {
+       
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    .banner-information {
+        /* margin-top: ; */
+        position: absolute;
+        left: 0;
+        top: 35px;
+        text-align: center;
+    
+    }
+    
+    .title-para h1 {
+        font-size: 40px;
+        /* word-wrap: break-word; */
     }
 
+
+.title-para p {
+    margin-top: 15px;
+ 
+}
+
+    .meal-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        gap: 20px;
+        padding: 30px;
+        max-width: 100%;
+        /* margin: 10% auto; */
+    }
+    
+    .meal {
+       
+        width: 100%;
+        height: 100%;
+        border-radius: 8px 8px 8px 0px;
+        /* box-shadow: 2px 5px 7px rgb(194, 194, 194); */
+    }
+    
+.meal-img {
+    width: 330px;
+   
+    /* object-fit: cover; */
+}
+
+.meal-img .img {
+    position: absolute;
+    left: -34px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  
+    /* object-fit: cover; */
+}
+
+.show-btn {
+ 
+    bottom: 0px;
+
+}
+
+
+.no-found-msg {
+    /* display: none; */
+    position:absolute;
+    left:20%;
+    top: 55%;
+    text-align:center;
+    color:#DC3545;
+    /* color: #FFC107; */
+}
+/* Modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    height: 70%;
+}
+.footer {
+  bottom:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 12%;
+    padding: 20px;
+
+}
+
+.footer-info {
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 70%;
+    height: 80%;
+   
+
+}
+
+
+}
+@media (min-width: 901px) and (max-width: 912px){
+    .nav-bar {
+       
+        min-height: 90px;
+        margin: 0 20px;
+      
+    }
+    .section {
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    .banner {
+       
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    .banner-information {
+        /* margin-top: ; */
+        position: absolute;
+        left: 10%;
+        top: 12%;
+        text-align: center;
+    
+    }
+    
+    .title-para h1 {
+        font-size: 40px;
+        /* word-wrap: break-word; */
+    }
+
+
+.title-para p {
+    margin-top: 15px;
+ 
+}
+
+    .meal-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        gap: 20px;
+        padding: 30px;
+        max-width: 100%;
+        /* margin: 10% auto; */
+    }
+    
+    .meal {
+       
+        width: 100%;
+        height: 100%;
+        border-radius: 8px 8px 8px 0px;
+        /* box-shadow: 2px 5px 7px rgb(194, 194, 194); */
+    }
+    
+.meal-img {
+    width: 330px;
+   
+    /* object-fit: cover; */
+}
+
+.meal-img .img {
+    position: absolute;
+    left: -34px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  
+    /* object-fit: cover; */
+}
+
+.show-btn {
+ 
+    bottom: 0px;
+
+}
+
+
+.no-found-msg {
+    /* display: none; */
+    position:absolute;
+    left:20%;
+    top: 55%;
+    text-align:center;
+    color:#DC3545;
+    /* color: #FFC107; */
+}
+/* Modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    height: 50%;
+}
+.footer {
+  bottom:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 12%;
+    padding: 20px;
+
+}
+
+.footer-info {
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 70%;
+    height: 80%;
+   
+
+}
 
 }
