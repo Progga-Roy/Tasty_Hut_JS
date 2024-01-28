@@ -1,3 +1,4 @@
+
 const body = document.getElementById('body');
 const header = document.createElement('header');
 const main = document.createElement('main');
