@@ -1078,9 +1078,6 @@ body {
        
         height: 100%;
     }
-    
-
-     
     .banner {
       
         width: 100%;
@@ -1120,7 +1117,7 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         max-width: 80%;
-        max-height: auto;
+        max-height: 60%;
         background-color: whitesmoke;
         border-radius: 5px;
         padding: 20px;
@@ -1146,9 +1143,6 @@ body {
 
     border-radius: 5px;
 }
-
-
-
 
     .no-found-msg {
         
